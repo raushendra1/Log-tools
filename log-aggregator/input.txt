@@ -1,0 +1,11 @@
+""" Input to collect application logs and configuration files. """
+
+""" Application type e.g. hive,impala,spark,tez etc. """
+application_type=hive
+
+""" Unravel home directory e.g. /opt, /usr/local """
+unravel_home=/opt
+
+""" Unravel install details, if unravel version is greater or equal to 4.6.2.0 then unravel_install="new_installer" else for lesser version unravel_install="old_installer" """
+unravel_install=new_installer
+

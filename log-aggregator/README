@@ -1,0 +1,10 @@
+* NOTE:
+- This script contains two files log_aggregator.py and input.txt.
+- To run this script, edit input.txt as per given attributes and comments in input.txt .
+- Run log_aggregator.py with "python log_aggregator.py"
+- This script supports hive,impala,spark and tez application logs.
+- Please update the application type in input.txt file.
+- Please update the unravel installed directory e.g. "/opt" or "/usr/local" in input.txt file.
+- Required log files directory(name is dump) and tar file creating in unravel installed directory e.g. "/opt" or "/usr/local"
+e.g. /opt/dump.tar.gz
+- Collect the /opt/dump.tar.gz for application debugging.
